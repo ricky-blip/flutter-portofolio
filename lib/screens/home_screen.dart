@@ -19,9 +19,7 @@ class HomeScreen extends StatelessWidget {
               size: 12,
               color: Colors.black,
             ),
-            SizedBox(
-              width: 10,
-            ),
+            SizedBox(width: 10),
             Text(
               "Flutter Portofolio",
               style: TextStyle(color: Colors.black),
@@ -69,9 +67,7 @@ class HomeScreen extends StatelessWidget {
             //   "@$username",
             //   style: kSubTitleText,
             // )),
-            const SizedBox(
-              height: 10,
-            ),
+            const SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
