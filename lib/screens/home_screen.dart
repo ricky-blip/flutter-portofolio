@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
               width: 10,
             ),
             Text(
-              "Untitled UI",
+              "Flutter Portofolio",
               style: TextStyle(color: Colors.black),
             )
           ],
@@ -64,11 +64,11 @@ class HomeScreen extends StatelessWidget {
               name,
               style: kTitleText,
             )),
-            Center(
-                child: Text(
-              "@$username",
-              style: kSubTitleText,
-            )),
+            // Center(
+            //     child: Text(
+            //   "@$username",
+            //   style: kSubTitleText,
+            // )),
             const SizedBox(
               height: 10,
             ),

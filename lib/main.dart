@@ -13,10 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Ricky Rinaldy | Flutter Developer',
       theme: ThemeData(
-          primarySwatch: Colors.blue,
-          elevatedButtonTheme: elevatedButtonThemeData),
+        primarySwatch: Colors.blue,
+        elevatedButtonTheme: elevatedButtonThemeData,
+      ),
       home: const HomeScreen(),
     );
   }
