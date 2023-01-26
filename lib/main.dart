@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Ricky Rinaldy | Flutter Developer',
+      title: 'Ricky Rinaldy | Flutter Dev',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         elevatedButtonTheme: elevatedButtonThemeData,
